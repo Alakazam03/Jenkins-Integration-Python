@@ -12,7 +12,7 @@ def make_Dictionary(root_dir):
                 all_words+=words
     dictionary = Counter(all_words)
     list_to_remove = dictionary.keys()
-    print list_to_remove
+    print (list_to_remove)
     for item in list_to_remove:
         if item.isalpha() == False:
             del dictionary[item]
