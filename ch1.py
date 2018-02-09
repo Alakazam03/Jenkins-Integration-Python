@@ -56,8 +56,8 @@ def extract_features(mail_dir):
 
 
 
-TRAIN_DIR = "../train-mails"
-TEST_DIR = "../test-mails"
+TRAIN_DIR = "/train-mails"
+TEST_DIR = "/test-mails"
 
 dictionary = make_Dictionary(TRAIN_DIR)
 print dictionary
